@@ -10,7 +10,7 @@ Nome: [PREENCHER]
 Idade: [PREENCHER]
 Benefício de interesse: [PREENCHER]
 
-Aguardo retorno para uma consulta gratuita.`;
+Aguardo retorno para uma consulta.`;
     
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}&text=${encodedMessage}&type=phone_number&app_absent=0`;
